@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
-	conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot neroh')).buffer(), `╠═〘 Beli Bot 〙 ═
+	conn.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot Dayat')).buffer(), `╠═〘 Beli Bot 〙 ═
 ╠➥ *VIA PULSA* :      *Rp 20.000*
 ╠➥ *VIA DANA* :      *Rp 10.000*
 ╠➥ *VIA GOPAY* : *Rp 10.000*
@@ -13,7 +13,7 @@ let handler = async (m, { conn }) => {
 ╠═ Tertarik Untuk Beli Bot Ini?
 ╠➥Klil Button Di Bawah
 ║
-╠═〘 NEROHBOT 〙 ═`.trim(), '©NerohBOT', 'DANA', '#viadana', 'GOPAY', '#viagopay', m)
+╠═〘 DayatBot 〙 ═`.trim(), '©NerohBOT', 'DANA', '#viadana', 'GOPAY', '#viagopay', m)
 }
 
 handler.command = /^sewabot$/i
