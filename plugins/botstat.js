@@ -45,7 +45,7 @@ let handler = async (m, { conn }) => {
 ║│➸ ${nsfw ? '✅' : '❌'} *Mode Nsfw*
 ║╰─────────────────
 ╰══════════════════`.trim()
-     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©NerohBOT', 'Owner', '.owner', 'Menu', '.menu', m)
+     await conn.send2ButtonLoc(m.chat, await(await fetch(image)).buffer(), str, '©DayatBot', 'Owner', '.owner', 'Menu', '.menu', m)
 }
 handler.help = ['botstatus']
 handler.tags = ['info']
