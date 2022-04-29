@@ -36,9 +36,9 @@ handler.all = async function (m, { isBlocked }) {
 ║
 ╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
 ╠➥ TOPUP/PIN
-║- 6281268477296 (DANA)
-║- 6281268477296 (GOPAY)
-╠═〘 NEROHBOT 〙 ═`.trim(), '©NerohBOT', 'Dana', '#viadana', 'Gopay', '#viagopay', m)
+║- 6285161697087 (DANA)
+║- 6285161697087 (GOPAY)
+╠═〘 DayatBot 〙 ═`.trim(), '©DayatBot', 'Dana', '#viadana', 'Gopay', '#viagopay', m)
 }
 
     // salam
